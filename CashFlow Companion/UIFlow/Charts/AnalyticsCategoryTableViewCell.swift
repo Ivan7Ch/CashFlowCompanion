@@ -20,12 +20,11 @@ class AnalyticsCategoryTableViewCell: UITableViewCell {
         configureContainerView()
     }
 
-    func configure(with category: ExpenseCategory, amount: Double, totalAmount: Double) {
+    func configure(with category: ExpenseCategory, amount: Double, totalAmount: Double, percentage: Double) {
         categoryColorView.backgroundColor = category.color
         categoryLabel.text = category.rawValue
-        amountLabel.text = String(format: "%.2f", amount)
+        amountLabel.text = String(format: "%.0f", amount)
         
-        let percentage = (amount / totalAmount) * 100
         percentageLabel.text = String(format: "%.2f%%", percentage)
     }
 

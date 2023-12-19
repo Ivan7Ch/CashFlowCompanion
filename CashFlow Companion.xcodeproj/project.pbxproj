@@ -13,6 +13,18 @@
 		F50B61402B1B3EA200B4942D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50B613E2B1B3EA200B4942D /* Main.storyboard */; };
 		F50B61422B1B3EA500B4942D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50B61412B1B3EA500B4942D /* Assets.xcassets */; };
 		F50B61452B1B3EA500B4942D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50B61432B1B3EA500B4942D /* LaunchScreen.storyboard */; };
+		F50B614E2B1B50FC00B4942D /* ExpenseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B614D2B1B50FC00B4942D /* ExpenseCategory.swift */; };
+		F50B61512B1B545100B4942D /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B61502B1B545100B4942D /* CategoryListViewController.swift */; };
+		F50B61532B1B545B00B4942D /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B61522B1B545B00B4942D /* CategoryTableViewCell.swift */; };
+		F50B61572B1B59A200B4942D /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B61562B1B59A200B4942D /* ExpensesViewController.swift */; };
+		F50B615A2B1B5A1A00B4942D /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B61592B1B5A1A00B4942D /* UserDefaultsManager.swift */; };
+		F50B615C2B1B5A7200B4942D /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B615B2B1B5A7200B4942D /* Expense.swift */; };
+		F50B615E2B1B5D1B00B4942D /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B615D2B1B5D1B00B4942D /* ExpenseTableViewCell.swift */; };
+		F50B61612B1BB29800B4942D /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B61602B1BB29800B4942D /* AddExpenseViewController.swift */; };
+		F57BE1342B1BD3E300020621 /* ExpensesChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE1332B1BD3E300020621 /* ExpensesChartViewController.swift */; };
+		F57BE13E2B1BD94000020621 /* AnalyticsCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57BE13D2B1BD94000020621 /* AnalyticsCategoryTableViewCell.swift */; };
+		F58E41A12B323F6200838CF0 /* database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F58E419F2B323F6200838CF0 /* database.xcdatamodeld */; };
+		F58E41A32B32401200838CF0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E41A22B32401200838CF0 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		F50B61412B1B3EA500B4942D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F50B61442B1B3EA500B4942D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F50B61462B1B3EA500B4942D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50B614D2B1B50FC00B4942D /* ExpenseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategory.swift; sourceTree = "<group>"; };
+		F50B61502B1B545100B4942D /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		F50B61522B1B545B00B4942D /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		F50B61562B1B59A200B4942D /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		F50B61592B1B5A1A00B4942D /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		F50B615B2B1B5A7200B4942D /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		F50B615D2B1B5D1B00B4942D /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		F50B61602B1BB29800B4942D /* AddExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		F57BE1332B1BD3E300020621 /* ExpensesChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesChartViewController.swift; sourceTree = "<group>"; };
+		F57BE13D2B1BD94000020621 /* AnalyticsCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		F58E41A02B323F6200838CF0 /* database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = database.xcdatamodel; sourceTree = "<group>"; };
+		F58E41A22B32401200838CF0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,83 @@
 		F50B61372B1B3EA200B4942D /* CashFlow Companion */ = {
 			isa = PBXGroup;
 			children = (
+				F50B61582B1B59F700B4942D /* Helpers */,
+				F50B614C2B1B50EE00B4942D /* Model */,
 				F50B61382B1B3EA200B4942D /* AppDelegate.swift */,
+				F50B614F2B1B544100B4942D /* UIFlow */,
 				F50B613A2B1B3EA200B4942D /* SceneDelegate.swift */,
 				F50B613C2B1B3EA200B4942D /* ViewController.swift */,
 				F50B613E2B1B3EA200B4942D /* Main.storyboard */,
 				F50B61412B1B3EA500B4942D /* Assets.xcassets */,
 				F50B61432B1B3EA500B4942D /* LaunchScreen.storyboard */,
 				F50B61462B1B3EA500B4942D /* Info.plist */,
+				F58E419F2B323F6200838CF0 /* database.xcdatamodeld */,
 			);
 			path = "CashFlow Companion";
+			sourceTree = "<group>";
+		};
+		F50B614C2B1B50EE00B4942D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F50B614D2B1B50FC00B4942D /* ExpenseCategory.swift */,
+				F50B615B2B1B5A7200B4942D /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F50B614F2B1B544100B4942D /* UIFlow */ = {
+			isa = PBXGroup;
+			children = (
+				F57BE1322B1BD3D600020621 /* Charts */,
+				F50B615F2B1BB27300B4942D /* AddExpense */,
+				F50B61552B1B599800B4942D /* Expenses */,
+				F50B61542B1B598000B4942D /* CategoryList */,
+			);
+			path = UIFlow;
+			sourceTree = "<group>";
+		};
+		F50B61542B1B598000B4942D /* CategoryList */ = {
+			isa = PBXGroup;
+			children = (
+				F50B61502B1B545100B4942D /* CategoryListViewController.swift */,
+				F50B61522B1B545B00B4942D /* CategoryTableViewCell.swift */,
+			);
+			path = CategoryList;
+			sourceTree = "<group>";
+		};
+		F50B61552B1B599800B4942D /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				F50B61562B1B59A200B4942D /* ExpensesViewController.swift */,
+				F50B615D2B1B5D1B00B4942D /* ExpenseTableViewCell.swift */,
+			);
+			path = Expenses;
+			sourceTree = "<group>";
+		};
+		F50B61582B1B59F700B4942D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F50B61592B1B5A1A00B4942D /* UserDefaultsManager.swift */,
+				F58E41A22B32401200838CF0 /* CoreDataManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F50B615F2B1BB27300B4942D /* AddExpense */ = {
+			isa = PBXGroup;
+			children = (
+				F50B61602B1BB29800B4942D /* AddExpenseViewController.swift */,
+			);
+			path = AddExpense;
+			sourceTree = "<group>";
+		};
+		F57BE1322B1BD3D600020621 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				F57BE1332B1BD3E300020621 /* ExpensesChartViewController.swift */,
+				F57BE13D2B1BD94000020621 /* AnalyticsCategoryTableViewCell.swift */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +175,8 @@
 			dependencies = (
 			);
 			name = "CashFlow Companion";
+			packageProductDependencies = (
+			);
 			productName = "CashFlow Companion";
 			productReference = F50B61352B1B3EA200B4942D /* CashFlow Companion.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +205,8 @@
 				Base,
 			);
 			mainGroup = F50B612C2B1B3EA200B4942D;
+			packageReferences = (
+			);
 			productRefGroup = F50B61362B1B3EA200B4942D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +234,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50B615E2B1B5D1B00B4942D /* ExpenseTableViewCell.swift in Sources */,
+				F50B61512B1B545100B4942D /* CategoryListViewController.swift in Sources */,
+				F50B61572B1B59A200B4942D /* ExpensesViewController.swift in Sources */,
+				F58E41A32B32401200838CF0 /* CoreDataManager.swift in Sources */,
 				F50B613D2B1B3EA200B4942D /* ViewController.swift in Sources */,
+				F57BE1342B1BD3E300020621 /* ExpensesChartViewController.swift in Sources */,
 				F50B61392B1B3EA200B4942D /* AppDelegate.swift in Sources */,
+				F58E41A12B323F6200838CF0 /* database.xcdatamodeld in Sources */,
+				F50B614E2B1B50FC00B4942D /* ExpenseCategory.swift in Sources */,
 				F50B613B2B1B3EA200B4942D /* SceneDelegate.swift in Sources */,
+				F50B615C2B1B5A7200B4942D /* Expense.swift in Sources */,
+				F50B615A2B1B5A1A00B4942D /* UserDefaultsManager.swift in Sources */,
+				F50B61532B1B545B00B4942D /* CategoryTableViewCell.swift in Sources */,
+				F57BE13E2B1BD94000020621 /* AnalyticsCategoryTableViewCell.swift in Sources */,
+				F50B61612B1BB29800B4942D /* AddExpenseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -295,6 +403,7 @@
 				DEVELOPMENT_TEAM = Z6SVM5W336;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CashFlow Companion/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CashFlow-Companion";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -305,7 +414,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.IvanChernetskyi.memriseScraper.CashFlow-Companion";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanchernetskyi.cashflowcompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,6 +432,7 @@
 				DEVELOPMENT_TEAM = Z6SVM5W336;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CashFlow Companion/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CashFlow-Companion";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -333,7 +443,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.IvanChernetskyi.memriseScraper.CashFlow-Companion";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivanchernetskyi.cashflowcompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -363,6 +473,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F58E419F2B323F6200838CF0 /* database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F58E41A02B323F6200838CF0 /* database.xcdatamodel */,
+			);
+			currentVersion = F58E41A02B323F6200838CF0 /* database.xcdatamodel */;
+			path = database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F50B612D2B1B3EA200B4942D /* Project object */;
 }
